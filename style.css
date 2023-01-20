@@ -1,0 +1,169 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.section1 {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+}
+
+.jj::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    border: 1px solid white;
+    width: 60%;
+    transition: 1s all;
+    opacity: 0;
+
+}
+
+.jj:hover::after {
+    opacity: 1;
+}
+
+.active {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.c::after {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 48%;
+    border: 3px solid cyan;
+    width: 4%;
+}
+
+.j {
+    bottom: 2%;
+    right: 1%;
+}
+
+.f {
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.bg5 {
+    background-color: #fff;
+}
+
+.w {
+    width: 80%;
+}
+
+.mm {
+    width: fit-content;
+}
+
+.mm::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    border-bottom: 2px solid rgba(0, 238, 255, 0.815);
+    width: 75%;
+    text-align: center;
+}
+
+.r,
+.m {
+    border: 10px solid rgb(0, 225, 255);
+}
+
+.m:hover {
+    cursor: default;
+}
+
+.r:hover {
+    background-color: rgb(0, 225, 255);
+    color: white;
+    border-color: transparent;
+}
+
+.t {
+    background-image: url("counters-bg.jpg");
+    background-size: cover;
+}
+
+.cardoo img {
+    transition: 1.5s all;
+}
+
+.cardoo {
+    overflow: hidden;
+}
+
+.a {
+    font-size: 12px;
+}
+
+.cardoo:hover img {
+    transform: scale(1.3);
+}
+
+.pp {
+    background-image: url("overlay-bg.jpg");
+}
+
+.k {
+    z-index: 20;
+}
+
+.y {
+    z-index: 8;
+
+}
+
+.uu {
+    width: 30px;
+}
+
+.tt {
+    transform: translateY(15px)
+}
+
+.g {
+    background-image: url("overlay-bg.jpg");
+    background-size: cover;
+}
+
+.zz {
+    line-height: 40px;
+}
+
+.hh::after {
+    content: "Designer";
+    animation: 12s identifier infinite alternate 2s;
+    background-color: cyan;
+    color: black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+@keyframes identifier {
+    0% {
+        content: "Designer";
+    }
+
+    25% {
+        content: "Developer";
+
+    }
+
+    50% {
+        content: "Freelancer";
+    }
+
+    75% {
+        content: "Photographer";
+    }
+
+    100% {
+        content: "Designer";
+
+    }
+}
